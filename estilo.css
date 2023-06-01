@@ -25,8 +25,14 @@ p{
 
 .lista{
     color: #F2D096;
-    font-size: 30px;
+    font-size: 35px;
     columns: 2;
+    text-shadow: black 5px 3px 5px;
+}
+
+.lista2{
+    color: #F2D096;
+    font-size: 35px;
     text-shadow: black 5px 3px 5px;
 }
 
