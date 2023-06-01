@@ -6,15 +6,39 @@ h1{
     color: white;
     font-size: 50px;
     text-align: center;
+    text-shadow: black 5px 3px 5px;
 }
+
+h2{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: black 5px 3px 5px;
+}
+
 
 p{
     color: #F2D096;
     font-size: 30px;
+    text-shadow: black 5px 3px 5px;
 }
 
-ul{
+.lista{
     color: #F2D096;
     font-size: 30px;
     columns: 2;
+    text-shadow: black 5px 3px 5px;
+}
+
+.saldos{
+    color: white;
+    font-size: 30px;
+    text-shadow: black 5px 3px 5px;
+}
+
+.menu{
+    color: white;
+    font-size: 30px;
+    text-shadow: black 5px 3px 5px;
+    text-align: right;
 }
