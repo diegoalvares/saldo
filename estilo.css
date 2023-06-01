@@ -1,0 +1,20 @@
+body{
+    background-color: #304d63;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+p{
+    color: #F2D096;
+    font-size: 30px;
+}
+
+ul{
+    color: #F2D096;
+    font-size: 30px;
+    columns: 2;
+}
