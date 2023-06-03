@@ -6,21 +6,25 @@ h1{
     color: white;
     font-size: 50px;
     text-align: center;
-    padding: 1%;
     text-shadow: black 5px 3px 5px;
 }
 
 .evento{
-    color: rgb(255, 15, 15);
+    color: #f54744;
     font-size: 40px;
     text-align: justify;
+    text-shadow: black 2px 1px 2px;
+    background-color: rgb(255, 255, 255);
+    padding: 2%;
+    box-shadow: black 0px 0px 3px 3px;
+    border-radius: 10px;
 }
 
 h2{
     color: white;
     font-size: 40px;
     text-align: center;
-    text-shadow: black 5px 3px 5px;
+    text-shadow: black 5px 3px 5px; 
 }
 
 p{
@@ -37,16 +41,19 @@ p{
     padding-top: 2%;
     padding-bottom: 2%;
     box-shadow: black 0px 0px 3px 3px;
+    border-radius: 10px;
+    text-shadow: black 1px 1px 1px;
 }
 
 .saldos{
-    color: white;
-    font-size: 30px;
-    text-shadow: black 5px 3px 5px;
-    background-color: #0e0c38;
-    box-shadow: black 0px 0px 3px 3px;
+    color: #ff3c38;
+    font-size: 35px;
+    columns: 2;
+    background-color: rgb(255, 255, 255);
     padding-top: 2%;
     padding-bottom: 2%;
+    box-shadow: black 0px 0px 3px 3px;
+    border-radius: 10px;
 }
 
 .menu{
