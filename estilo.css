@@ -1,15 +1,13 @@
 body{
-    background-color: #304d63;
+    background-image: linear-gradient(to right, #ff8c42, #efb217);
 }
 
 h1{
     color: white;
     font-size: 50px;
     text-align: center;
-    text-shadow: black 5px 3px 5px;
-    background-color: #070828;
     padding: 1%;
-    box-shadow: black 0px 0px 3px 3px;
+    text-shadow: black 5px 3px 5px;
 }
 
 h2{
@@ -17,7 +15,7 @@ h2{
     font-size: 40px;
     text-align: center;
     text-shadow: black 5px 3px 5px;
-    background-color: #101260;
+    background-color: #fff275;
     box-shadow: black 0px 0px 3px 3px;
     padding: 1%;}
 
@@ -29,24 +27,13 @@ p{
 }
 
 .lista{
-    color: #F2D096;
+    color: #ff3c38;
     font-size: 35px;
     columns: 2;
-    text-shadow: black 5px 3px 5px;
-    background-color: #0e0c38;
-    box-shadow: black 0px 0px 3px 3px;
+    background-color: rgb(255, 255, 255);
     padding-top: 2%;
     padding-bottom: 2%;
-}
-
-.lista2{
-    color: #F2D096;
-    font-size: 35px;
-    text-shadow: black 5px 3px 5px;
-    background-color: #0e0c38;
     box-shadow: black 0px 0px 3px 3px;
-    padding-top: 2%;
-    padding-bottom: 2%;
 }
 
 .saldos{
@@ -60,13 +47,14 @@ p{
 }
 
 .menu{
-    color: white;
+    color: #ff3c38;
     font-size: 30px;
     text-shadow: black 5px 3px 5px;
     text-align: right;
-    background-color: #070828;
+    background-color: #fff275;
     padding: 1%;
     box-shadow: black 0px 0px 3px 3px;
+    border-radius: 10px;
 }
 
 div {
