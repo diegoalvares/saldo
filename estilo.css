@@ -28,9 +28,10 @@ h2{
 }
 
 p{
-    color: #F2D096;
-    font-size: 30px;
-    text-shadow: black 5px 3px 5px;
+    color: #ff0000;
+    font-size: 35px;
+    text-shadow: rgb(0, 0, 0) 2px 1px 2px;
+    margin: center;
 }
 
 .lista{
