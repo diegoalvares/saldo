@@ -1,5 +1,6 @@
 body{
     background-image: linear-gradient(to right, #ff8c42, #efb217);
+    margin: 5%;
 }
 
 h1{
@@ -90,4 +91,14 @@ div {
     box-shadow: black 0px 0px 3px 3px;
     border-radius: 10px;
     text-shadow: black 1px 1px 1px;
+}
+
+
+img{
+    width: 720px;
+    height: 420px;
+}
+
+.diretoria{
+    align-items: center;
 }
