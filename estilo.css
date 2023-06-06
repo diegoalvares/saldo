@@ -54,11 +54,13 @@ p{
 
 .menu{
     color: #ff3c38;
-    font-size: 30px;
+    font-size: 35px;
     text-shadow: black 5px 3px 5px;
     text-align: right;
     background-color: #fff275;
-    padding: 1%;
+    padding-right: 3%;
+    padding-top: 0.7%;
+    padding-bottom: 1%;
     box-shadow: black 0px 0px 3px 3px;
     border-radius: 10px;
 }
