@@ -55,6 +55,7 @@ p{
     box-shadow: rgb(243, 149, 33) 0px 0px 3px 3px;
     background-color: rgb(16, 15, 15);
     padding: 1%;
+    padding-bottom: 3%;
     margin-top: -6.5%;
     margin-left: -6%;
     margin-right: -6%;
@@ -109,8 +110,20 @@ img{
 }
 
 a{
-    text-shadow: black 1px 1px 1px;
+    text-shadow: black 1px 2px 1px;
     padding: 1%;
     color: #ffffff;
     text-decoration: none;
+}
+
+.financeiro{
+    text-shadow: black 1px 2px 1px;
+    padding: 1%;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #30a854;
+    border-radius: 60%;
+    margin: 1%;
+    box-shadow: rgb(243, 149, 33) 0px 0px 1px 3px;
+    font-size: 30px;
 }
