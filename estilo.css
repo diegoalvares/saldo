@@ -1,13 +1,14 @@
 body{
-    background-image: linear-gradient(to right, #f67220, #efb217);
+    background-image: linear-gradient(to bottom, #f67220, #efb217);
     margin: 5%;
 }
 
 h1{
     color: rgb(255, 255, 255);
-    font-size: 50px;
+    font-size: 45px;
     text-align: center;
     text-shadow: rgb(255, 145, 0) 2px 2px 1px;
+    padding-top: 2%;
 }
 
 h2{
@@ -53,8 +54,10 @@ p{
     text-align: right;
     box-shadow: rgb(243, 149, 33) 0px 0px 3px 3px;
     background-color: rgb(16, 15, 15);
-    border-radius: 10px;
     padding: 1%;
+    margin-top: -6.5%;
+    margin-left: -6%;
+    margin-right: -6%;
 }
 
 div {
@@ -103,10 +106,6 @@ div {
 img{
     width: 620px;
     height: 300px;
-}
-
-.diretoria{
-    align-items: center;
 }
 
 a{
