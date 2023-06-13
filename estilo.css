@@ -105,8 +105,14 @@ div {
 
 
 img{
-    width: 620px;
-    height: 300px;
+    width: 720px;
+    height: 600px;
+}
+
+.img2{
+    margin-top: -3.36%;
+    width: 600px;
+    height: 80px;
 }
 
 a{
