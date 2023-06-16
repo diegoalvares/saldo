@@ -61,13 +61,6 @@ p{
     margin-right: -6%;
 }
 
-div {
-    padding-top: 1%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .lista{
     color: #ff0000;
     font-size: 35px;
@@ -122,6 +115,15 @@ a{
     text-decoration: none;
 }
 
+a:visited{
+    color: #fff01f;
+}
+
+a:hover{
+    color: #b4840a;
+}
+
+
 .financeiro{
     text-shadow: black 1px 2px 1px;
     color: #ffffff;
@@ -134,4 +136,40 @@ a{
     padding: 0.2%;
     padding-right: 1.5%;
     text-align: center;
+}
+
+.financeiro:hover{
+    text-shadow: black 1px 2px 1px;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5%;
+    margin: 1%;
+    box-shadow: rgb(243, 149, 33) 0px 0px 3px 3px;
+    font-size: 30px;
+    background-image: linear-gradient(to bottom, #013837 45%, #028790);
+    padding: 0.2%;
+    padding-right: 1.5%;
+    text-align: center;
+}
+
+.financeiro:visited{
+    text-shadow: black 1px 2px 1px;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5%;
+    margin: 1%;
+    box-shadow: rgb(243, 149, 33) 0px 0px 3px 3px;
+    font-size: 30px;
+    background-image: linear-gradient(to bottom, #056622 45%, #50bf25);
+    padding: 0.2%;
+    padding-right: 1.5%;
+    text-align: center;
+}
+
+.oculto>ul{
+    display: none;
+}
+
+.oculto:hover>ul{
+    display: block;
 }
