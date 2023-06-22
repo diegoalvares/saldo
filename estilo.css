@@ -56,12 +56,20 @@ ul{
     font-size: 1.6em;
     list-style: inside;
     padding: 1em;
+    color: var(--cor3);
+    text-shadow: 1px 1px 0.5px var(--sombra);
 
 }
 
+ul a{
+    color: var(--cor3);
+    font-size: 1em;
+    padding: 0.1em;
+}
+
 .lista{
-    font-size: 1.6em;
     list-style: inside;
     padding: 1em;
     columns: 2;
+    color: var(--cor3);
 }
