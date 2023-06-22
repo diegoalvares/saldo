@@ -14,7 +14,7 @@
 
 header{
     background-color: var(--cor1);
-    text-shadow: 2px 2px 2px rgb(117, 113, 113);
+    text-shadow: 2px 1px 2px rgb(117, 113, 113);
 }
 
 header nav{
@@ -41,7 +41,7 @@ main{
     border-radius: 10px;
 }
 
-section h1{
+h1{
     color: white;
     background-color: rgb(24, 23, 23);
     padding: 0.6em;
@@ -52,10 +52,16 @@ section h1{
     border-top-right-radius: 10px;
 }
 
-section ul{
-    font-size: 1.7em;
+ul{
+    font-size: 1.6em;
     list-style: inside;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding: 1em;
 
+}
+
+.lista{
+    font-size: 1.6em;
+    list-style: inside;
+    padding: 1em;
+    columns: 2;
 }
