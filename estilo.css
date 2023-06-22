@@ -1,3 +1,8 @@
+*{
+    margin: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Arial Narrow', Arial, sans-serif;
+}
+
 :root{
     --cor1: rgb(1, 55, 121);
     --cor2: rgb(255, 186, 8);
@@ -8,30 +13,25 @@
 
 header{
     background-color: var(--cor1);
-    padding: 0.5em;
-}
-
-header h1{
-    color: white;
-    text-align: center;
-    font-size: 3em;
+    text-shadow: 2px 2px 2px rgb(117, 113, 113);
 }
 
 header nav{
     text-align: right;
+    padding: 1em;
 }
 
 a{
     text-decoration: none;
     color: white;
-    font-size: 2em;
+    font-size: 2.2em;
     padding: 1em;
 }
 
 a:hover{
-    color: brown;
+        color: var(--cor2);
 }
 
-a:visited{
-    color: white;
+body{
+    background-color: var(--cor5);
 }
