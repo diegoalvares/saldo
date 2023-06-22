@@ -9,6 +9,7 @@
     --cor3: rgb(120, 41, 15);
     --cor4: rgb(23, 195, 178);
     --cor5: rgb(252, 247, 255);
+    --sombra: rgb(117, 113, 113);
 }
 
 header{
@@ -24,14 +25,37 @@ header nav{
 a{
     text-decoration: none;
     color: white;
-    font-size: 2.2em;
+    font-size: 1.5em;
     padding: 1em;
 }
 
 a:hover{
         color: var(--cor2);
+        transition-duration: 0.7s;
 }
 
-body{
+main{
     background-color: var(--cor5);
+    box-shadow: 2px 2px 2px var(--sombra);
+    max-width: 1280px;
+    border-radius: 10px;
+}
+
+section h1{
+    color: white;
+    background-color: rgb(24, 23, 23);
+    padding: 0.6em;
+    text-align: center;
+    margin-top: 1em;
+    font-size: 2em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+section ul{
+    font-size: 1.7em;
+    list-style: inside;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
 }
